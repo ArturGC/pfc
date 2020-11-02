@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="tcc" type="kalman.py" name="kalman" />
+    <node pkg="tcc" type="encoder.py" name="encoderSub" />
+    <node pkg="tcc" type="acelerometro.py" name="acelerometroSub" />
+    <node pkg="tcc" type="gps.py" name="gpsSub" />
+    <node pkg="tcc" type="motor.py" name="motorPub" />
+</launch>
